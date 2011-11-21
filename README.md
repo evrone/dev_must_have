@@ -8,6 +8,12 @@ Meta gem for essention gem for use in development environment
 
 # Usage
 
+Just add to Gemfile:
+
+```
+gem 'dev_must_have' , :git => "https://github.com/evrone/dev_must_have"
+```
+
 ## hirb
 
 Add to ~/.irbrc:
