@@ -4,9 +4,8 @@ Meta gem for essential gem for use in development environment
 
 #Gem list
 
-##hirb - rails console models table output
-
-##powder - Makes Pow even easier
+1. hirb - rails console models table output
+1. powder - Makes Pow even easier
 
 # Usage
 
