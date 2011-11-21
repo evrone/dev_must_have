@@ -1,6 +1,6 @@
 # Rails development must have gems
 
-Meta gem for essention gem for use in development environment
+Meta gem for essential gem for use in development environment
 
 # Gems list
 
