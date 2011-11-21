@@ -1,23 +1,25 @@
-h1. Rails development must have gems
+# Rails development must have gems
 
 Meta gem for essention gem for use in development environment
 
-h1. Gems list
+# Gems list
 
 # hirb - rails console models table output
 
-h1. Usage
+# Usage
 
-h2. hirb
+## hirb
 
 Add to ~/.irbrc:
 
+```
 begin
   if defined?(Rails)
     Hirb.enable
   end
 rescue LoadError => err
 end
+```
 
 then rails console and:
 irb(main):003:0> User.all
