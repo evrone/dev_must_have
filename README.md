@@ -28,4 +28,7 @@ end
 ```
 
 then rails console and:
+
+```
 irb(main):003:0> User.all
+```
