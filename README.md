@@ -9,10 +9,12 @@ Meta gem for essential gem for use in development environment
 
 # Usage
 
-Just add to Gemfile:
+Just add to group :development in Gemfile:
 
 ```
-gem 'dev_must_have' , :git => "https://github.com/evrone/dev_must_have"
+group :development do
+  gem 'dev_must_have' , :git => "https://github.com/evrone/dev_must_have"
+end
 ```
 
 ## hirb
