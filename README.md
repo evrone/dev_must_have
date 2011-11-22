@@ -6,6 +6,7 @@ Meta gem for essential gem for use in development environment
 
 1. hirb - rails console models table output
 1. powder - Makes Pow even easier
+1. wirble - rails console colorizing, tab-completion, persistent history
 
 # Usage
 
@@ -34,4 +35,18 @@ then rails console and:
 
 ```
 irb(main):003:0> User.all
+```
+
+## wirble
+
+Add to ~/.irbrc:
+
+```
+begin
+  require 'wirble'
+
+  Wirble.init
+  Wirble.colorize
+rescue LoadError => err
+end
 ```
