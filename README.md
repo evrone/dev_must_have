@@ -7,7 +7,7 @@ Meta gem for essential gem for use in development environment
 1. hirb - rails console models table output
 1. powder - Makes Pow even easier
 1. wirble - rails console colorizing, tab-completion, persistent history
-1. capistrano_colors - rails console colorizing, tab-completion, persistent history
+1. capistrano_colors - capistrano output colorizing
 
 # Usage
 
