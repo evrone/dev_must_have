@@ -23,4 +23,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "hirb"
   s.add_runtime_dependency "wirble"
   s.add_runtime_dependency "powder"
+  s.add_runtime_dependency "capistrano_colors"
 end

@@ -7,6 +7,7 @@ Meta gem for essential gem for use in development environment
 1. hirb - rails console models table output
 1. powder - Makes Pow even easier
 1. wirble - rails console colorizing, tab-completion, persistent history
+1. capistrano_colors - rails console colorizing, tab-completion, persistent history
 
 # Usage
 
@@ -20,7 +21,7 @@ end
 
 ## hirb
 
-Add to ~/.irbrc:
+Add to `~/.irbrc`:
 
 ```
 begin
@@ -39,7 +40,7 @@ irb(main):003:0> User.all
 
 ## wirble
 
-Add to ~/.irbrc:
+Add to `~/.irbrc`:
 
 ```
 begin
@@ -49,4 +50,25 @@ begin
   Wirble.colorize
 rescue LoadError => err
 end
+```
+
+## powder
+
+You already can execute a lot of commands:
+
+```
+powder link => Link the current dir to ~/.pow/<current_directory>
+powder unlink => Unlink current_dir or the symlink defined in .powder
+powder config => Get Pow's current configuration information
+powder open => Opens the pow link in a browser
+```
+
+See a bit more on the [gem homepage](https://github.com/Rodreegez/powder)
+
+## capistrano_colors
+
+Add to `config/deploy.rb`:
+
+```
+require 'capistrano_colors'
 ```
