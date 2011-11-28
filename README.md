@@ -8,6 +8,7 @@ Meta gem for essential gem for use in development environment
 1. powder - Makes Pow even easier
 1. wirble - rails console colorizing, tab-completion, persistent history
 1. capistrano_colors - capistrano output colorizing
+1. dev_log_in - Type /dev/log_in/john in browser to log in as john (in env.development)
 
 # Usage
 
@@ -72,3 +73,7 @@ Add to `config/deploy.rb`:
 ```
 require 'capistrano_colors'
 ```
+
+## dev_must_have
+
+Go to http://myproject.local/dev/log_in/john to log in as john (if a user with email "john@*.*" exists in DB)
