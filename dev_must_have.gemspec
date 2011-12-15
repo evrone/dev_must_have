@@ -25,4 +25,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "powder"
   s.add_runtime_dependency "capistrano_colors"
   s.add_runtime_dependency "dev_log_in"
+  s.add_runtime_dependency "guard"
+  s.add_runtime_dependency "guard-rspec"
 end
