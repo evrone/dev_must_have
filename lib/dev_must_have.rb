@@ -3,5 +3,6 @@ require "dev_must_have/version"
 require "hirb"
 
 module DevMustHave
-  # Your code goes here...
+  class Engine < Rails::Engine
+  end
 end
