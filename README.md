@@ -16,9 +16,9 @@ Meta gem for essential gem for use in development environment
 
 Just add to group :development in Gemfile:
 
-```
+```ruby
 group :development do
-  gem 'dev_must_have' , :git => "https://github.com/evrone/dev_must_have"
+  gem 'dev_must_have' , :git => 'https://github.com/evrone/dev_must_have'
 end
 ```
 
@@ -26,7 +26,7 @@ end
 
 Add to `~/.irbrc`:
 
-```
+```ruby
 begin
   if defined?(Rails)
     Hirb.enable
@@ -45,7 +45,7 @@ irb(main):003:0> User.all
 
 Add to `~/.irbrc`:
 
-```
+```ruby
 begin
   require 'wirble'
 
@@ -72,7 +72,7 @@ See a bit more on the [gem homepage](https://github.com/Rodreegez/powder)
 
 Add to `config/deploy.rb`:
 
-```
+```ruby
 require 'capistrano_colors'
 ```
 
