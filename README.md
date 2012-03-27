@@ -76,7 +76,7 @@ Add to `config/deploy.rb`:
 require 'capistrano_colors'
 ```
 
-## dev_must_have
+## dev_log_in
 
 Go to http://myproject.local/dev/log_in/john to log in as john (if a user with email "john@*.*" exists in DB)
 
