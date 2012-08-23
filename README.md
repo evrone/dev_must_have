@@ -70,10 +70,14 @@ See a bit more on the [gem homepage](https://github.com/Rodreegez/powder)
 
 ## capistrano_colors
 
-Add to `config/deploy.rb`:
+Add to `~/.caprc`:
 
 ```ruby
-require 'capistrano_colors'
+begin
+ require 'capistrano_colors'
+rescue LoadError
+ puts 'no colors for you'
+end
 ```
 
 ## dev_log_in
