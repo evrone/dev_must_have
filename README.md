@@ -18,7 +18,7 @@ Just add to group :development in Gemfile:
 
 ```ruby
 group :development do
-  gem 'dev_must_have' , :git => 'https://github.com/evrone/dev_must_have'
+  gem 'dev_must_have' , github: 'evrone/dev_must_have'
 end
 ```
 
