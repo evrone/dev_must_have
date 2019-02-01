@@ -1,3 +1,4 @@
+# PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINEDs
 # Rails development must have gems
 
 Meta gem for essential gem for use in development environment
